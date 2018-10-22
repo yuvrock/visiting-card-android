@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.community.jboss.visitingcard">
 
+    <!--
+        TODO: Add location/GPS access permissions
+        TODO: Change the Label of the Activities according to the Activity's context
+        TODO: Change App Icon .i.e., ic_launcher
+    -->
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,16 +16,30 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".VisitingCard.VisitingCardActivity" />
+        <activity android:name=".IntroScreens.SliderActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BlankActivity"></activity>
+
+        <!--
+            TODO: Add Google Maps API key here
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Maps.MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name=".VisitingCard.ViewVisitingCard"></activity>
     </application>
 
 </manifest>
