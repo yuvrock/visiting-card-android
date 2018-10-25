@@ -1,5 +1,6 @@
 # Visiting Card Android
 
+[![Build Status](https://travis-ci.org/JbossOutreach/visiting-card-android.svg?branch=master)](https://travis-ci.org/JbossOutreach/visiting-card-android)
 ![Android](https://img.shields.io/badge/GCI-Android-green.svg?longCache=true&style=flat-square)   ![In Progress](https://img.shields.io/badge/In--progress-true-green.svg?longCache=true&style=flat-square) <br />
 
 ## Quick Insight
