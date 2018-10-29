@@ -5,13 +5,13 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/06bd6acff9cd4506985192596642ef5f)](https://www.codacy.com/app/JBossOutreach/visiting-card-android?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JBossOutreach/visiting-card-android&amp;utm_campaign=Badge_Grade)
 
 ## Quick Insight
-An Android application that helps exchanging digital Visiting card in a virtual way while attending meetups and conferences.<br>
+An Android application that helps exchanging digital Visiting card in a virtual way while attending meet and conferences.<br>
 
 ## Work-Flow
-- A Splash Screen that Displays the app icon everytime that app is launched.<br>
-- A Quick Walkthrough(Slider) of the Visiting Card Android App when the App is launched for the first time.<br>
+- A Splash Screen that displays the app icon every time that app is launched.<br>
+- A Quick Walk-through (Slider) of the Visiting Card Android App when the App is launched for the first time.<br>
 - A Login Activity to ensure only Authentic Users use the app - Implemented using Firebase Authentication.<br>
-- A Visiting Card Activity that lets the Currently authenticated user to create his/her own visiting card by entering their own Information.<br>
+- A Visiting Card Activity that lets the currently authenticated user to create his/her own visiting card by entering their own Information.<br>
 - A Google Maps activity that helps you spot your current location and also helps you drop your own visiting card in the current location.<br>
 - A bottom Sheet in the same Maps Activity that gives you all the dropped Visiting card within a 500m to 1km radius.<br>
 - Clicking on a particular Visiting card reveals all the Information present in that card.
