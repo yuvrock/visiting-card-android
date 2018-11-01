@@ -10,8 +10,8 @@ An Android application that helps exchanging digital Visiting card in a virtual 
 ## Work-Flow
 - A Splash Screen that displays the app icon every time that app is launched.<br>
 - A Quick Walk-through (Slider) of the Visiting Card Android App when the App is launched for the first time.<br>
-- A Login Activity to ensure only Authentic Users use the app - Implemented using Firebase Authentication.<br>
-- A Visiting Card Activity that lets the currently authenticated user to create his/her own visiting card by entering their own Information.<br>
+- A Login Activity to ensure only authenticated Users use the app - implemented using Firebase Authentication.<br>
+- A Visiting Card Activity that lets the currently authenticated user to create his/her own visiting card by entering their own information.<br>
 - A Google Maps activity that helps you spot your current location and also helps you drop your own visiting card in the current location.<br>
 - A bottom Sheet in the same Maps Activity that gives you all the dropped Visiting card within a 500m to 1km radius.<br>
 - Clicking on a particular Visiting card reveals all the Information present in that card.
